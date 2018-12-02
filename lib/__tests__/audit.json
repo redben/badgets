@@ -1,0 +1,1205 @@
+{
+    "actions": [
+      {
+        "action": "install",
+        "module": "gulp-nsp",
+        "target": "3.0.1",
+        "isMajor": true,
+        "resolves": [
+          {
+            "id": 593,
+            "path": "gulp-nsp>nsp>https-proxy-agent",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>rimraf>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>rimraf>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 597,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>concat-stream",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 534,
+            "path": "gulp-nsp>nsp>https-proxy-agent>debug",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 534,
+            "path": "gulp-nsp>nsp>subcommand>debug",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>boom>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>cryptiles>boom>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>sntp>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 532,
+            "path": "gulp-nsp>nsp>joi>moment",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 606,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>http-signature>sshpk",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 664,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>stringstream",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 130,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tough-cookie",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 525,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tough-cookie",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 598,
+            "path": "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tunnel-agent",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 612,
+            "path": "gulp-nsp>nsp>rc>deep-extend",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "gulp-istanbul",
+        "target": "1.1.3",
+        "isMajor": true,
+        "resolves": [
+          {
+            "id": 577,
+            "path": "gulp-istanbul>istanbul-threshold-checker>lodash",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 577,
+            "path": "gulp-istanbul>lodash",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp-istanbul>istanbul>fileset>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp-istanbul>istanbul>fileset>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-istanbul>istanbul>fileset>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-istanbul>istanbul>fileset>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "gulp",
+        "target": "4.0.0",
+        "isMajor": true,
+        "resolves": [
+          {
+            "id": 577,
+            "path": "gulp>vinyl-fs>glob-watcher>gaze>globule>lodash",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp>vinyl-fs>glob-stream>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp>vinyl-fs>glob-stream>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp>vinyl-fs>glob-watcher>gaze>globule>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 118,
+            "path": "gulp>vinyl-fs>glob-watcher>gaze>globule>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 157,
+            "path": "gulp>liftoff>findup-sync>micromatch>braces>expand-range>fill-range>randomatic",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp>vinyl-fs>glob-stream>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp>vinyl-fs>glob-stream>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "gulp-mocha",
+        "target": "6.0.0",
+        "isMajor": true,
+        "resolves": [
+          {
+            "id": 118,
+            "path": "gulp-mocha>mocha>glob>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 534,
+            "path": "gulp-mocha>mocha>debug",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 146,
+            "path": "gulp-mocha>mocha>growl",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "gulp-eslint",
+        "target": "5.0.0",
+        "isMajor": true,
+        "resolves": [
+          {
+            "id": 577,
+            "path": "gulp-eslint>eslint>inquirer>lodash",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-eslint>eslint>file-entry-cache>flat-cache>del>globby>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-eslint>eslint>file-entry-cache>flat-cache>del>rimraf>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-eslint>eslint>glob>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 338,
+            "path": "gulp-eslint>eslint>minimatch>brace-expansion",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 597,
+            "path": "gulp-eslint>eslint>concat-stream",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 534,
+            "path": "gulp-eslint>eslint>debug",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "gulp-exclude-gitignore",
+        "target": "1.2.0",
+        "isMajor": false,
+        "resolves": [
+          {
+            "id": 118,
+            "path": "gulp-exclude-gitignore>gulp-ignore>gulp-match>minimatch",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "install",
+        "module": "lodash",
+        "target": "4.17.11",
+        "isMajor": false,
+        "resolves": [
+          {
+            "id": 577,
+            "path": "lodash",
+            "dev": false,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      },
+      {
+        "action": "review",
+        "module": "hoek",
+        "resolves": [
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>joi>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>joi>topo>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>wreck>boom>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "id": 566,
+            "path": "gulp-nsp>nsp>wreck>hoek",
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ]
+      }
+    ],
+    "advisories": {
+      "118": {
+        "findings": [
+          {
+            "version": "2.0.10",
+            "paths": [
+              "gulp>vinyl-fs>glob-stream>glob>minimatch",
+              "gulp>vinyl-fs>glob-stream>minimatch",
+              "gulp-istanbul>istanbul>fileset>glob>minimatch",
+              "gulp-istanbul>istanbul>fileset>minimatch",
+              "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>glob>minimatch",
+              "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>minimatch"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "0.2.14",
+            "paths": [
+              "gulp>vinyl-fs>glob-watcher>gaze>globule>glob>minimatch",
+              "gulp>vinyl-fs>glob-watcher>gaze>globule>minimatch"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "1.0.0",
+            "paths": [
+              "gulp-exclude-gitignore>gulp-ignore>gulp-match>minimatch"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "0.3.0",
+            "paths": [
+              "gulp-mocha>mocha>glob>minimatch"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "3.0.0",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>rimraf>glob>minimatch"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 118,
+        "created": "2016-05-25T16:37:20.000Z",
+        "updated": "2018-03-01T21:58:01.072Z",
+        "deleted": null,
+        "title": "Regular Expression Denial of Service",
+        "found_by": {
+          "name": "Nick Starke"
+        },
+        "reported_by": {
+          "name": "Nick Starke"
+        },
+        "module_name": "minimatch",
+        "cves": [
+          "CVE-2016-10540"
+        ],
+        "vulnerable_versions": "<=3.0.1",
+        "patched_versions": ">=3.0.2",
+        "overview": "Affected versions of `minimatch` are vulnerable to regular expression denial of service attacks when user input is passed into the `pattern` argument of `minimatch(path, pattern)`.\n\n\n## Proof of Concept\n```\nvar minimatch = require(“minimatch”);\n\n// utility function for generating long strings\nvar genstr = function (len, chr) {\n  var result = “”;\n  for (i=0; i<=len; i++) {\n    result = result + chr;\n  }\n  return result;\n}\n\nvar exploit = “[!” + genstr(1000000, “\\\\”) + “A”;\n\n// minimatch exploit.\nconsole.log(“starting minimatch”);\nminimatch(“foo”, exploit);\nconsole.log(“finishing minimatch”);\n```",
+        "recommendation": "Update to version 3.0.2 or later.",
+        "references": "",
+        "access": "public",
+        "severity": "high",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "Multi.Library",
+          "exploitability": 4,
+          "affected_components": "Internal::Code::Function::minimatch({type:'args', key:0, vector:{type:'string'}})"
+        },
+        "url": "https://npmjs.com/advisories/118"
+      },
+      "130": {
+        "findings": [
+          {
+            "version": "2.2.2",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tough-cookie"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 130,
+        "created": "2016-07-22T19:43:01.000Z",
+        "updated": "2018-03-01T23:04:14.264Z",
+        "deleted": null,
+        "title": "ReDoS via long string of semicolons",
+        "found_by": {
+          "name": "David Kirchner"
+        },
+        "reported_by": {
+          "name": "David Kirchner"
+        },
+        "module_name": "tough-cookie",
+        "cves": [
+          "CVE-2016-1000232"
+        ],
+        "vulnerable_versions": ">=0.9.7 <=2.2.2",
+        "patched_versions": ">=2.3.0",
+        "overview": "Affected versions of `tough-cookie` may be vulnerable to regular expression denial of service when long strings of semicolons exist in the `Set-Cookie` header.",
+        "recommendation": "Update to version 2.3.0 or later.",
+        "references": "",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "Multi.Library",
+          "exploitability": 7,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/130"
+      },
+      "146": {
+        "findings": [
+          {
+            "version": "1.9.2",
+            "paths": [
+              "gulp-mocha>mocha>growl"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 146,
+        "created": "2016-09-06T12:49:40.000Z",
+        "updated": "2018-03-02T21:07:28.071Z",
+        "deleted": null,
+        "title": "Command Injection",
+        "found_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "reported_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "module_name": "growl",
+        "cves": [
+          "CVE-2017-16042"
+        ],
+        "vulnerable_versions": "<1.10.2",
+        "patched_versions": ">=1.10.2",
+        "overview": "Affected versions of `growl` do not properly sanitize input prior to passing it into a shell command, allowing for arbitrary command execution.",
+        "recommendation": "Update to version 1.10.2 or later.",
+        "references": "[Issue #60](https://github.com/tj/node-growl/issues/60)\n[PR #61](https://github.com/tj/node-growl/pull/61)",
+        "access": "public",
+        "severity": "critical",
+        "cwe": "CWE-94",
+        "metadata": {
+          "module_type": "CLI.Library",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/146"
+      },
+      "157": {
+        "findings": [
+          {
+            "version": "1.1.5",
+            "paths": [
+              "gulp>liftoff>findup-sync>micromatch>braces>expand-range>fill-range>randomatic"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 157,
+        "created": "2016-11-09T20:03:19.000Z",
+        "updated": "2018-05-08T15:23:56.190Z",
+        "deleted": null,
+        "title": "Cryptographically Weak PRNG",
+        "found_by": {
+          "name": "Sven Slootweg"
+        },
+        "reported_by": {
+          "name": "Sven Slootweg"
+        },
+        "module_name": "randomatic",
+        "cves": [
+          "CVE-2017-16028"
+        ],
+        "vulnerable_versions": "<3.0.0",
+        "patched_versions": ">=3.0.0",
+        "overview": "Affected versions of `randomatic` generate random values using a cryptographically weak psuedo-random number generator. This may result in predictable values instead of random values as intended.\r\n\r\n",
+        "recommendation": "Update to version 3.0.0 or later.\r\n",
+        "references": "- [Commit #4a52695](https://github.com/jonschlinkert/randomatic/commit/4a526959b3a246ae8e4a82f9c182180907227fe1#diff-b9cfc7f2cdf78a7f4b91a753d10865a2)",
+        "access": "public",
+        "severity": "low",
+        "cwe": "CWE-330",
+        "metadata": {
+          "module_type": "Multi.Library",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/157"
+      },
+      "338": {
+        "findings": [
+          {
+            "version": "1.1.6",
+            "paths": [
+              "gulp>vinyl-fs>glob-stream>glob>minimatch>brace-expansion",
+              "gulp>vinyl-fs>glob-stream>minimatch>brace-expansion",
+              "gulp-eslint>eslint>file-entry-cache>flat-cache>del>globby>glob>minimatch>brace-expansion",
+              "gulp-eslint>eslint>file-entry-cache>flat-cache>del>rimraf>glob>minimatch>brace-expansion",
+              "gulp-eslint>eslint>glob>minimatch>brace-expansion",
+              "gulp-eslint>eslint>minimatch>brace-expansion",
+              "gulp-istanbul>istanbul>fileset>glob>minimatch>brace-expansion",
+              "gulp-istanbul>istanbul>fileset>minimatch>brace-expansion",
+              "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>glob>minimatch>brace-expansion",
+              "gulp-istanbul>istanbul-threshold-checker>istanbul>fileset>minimatch>brace-expansion"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "1.1.3",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>rimraf>glob>minimatch>brace-expansion"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 338,
+        "created": "2017-04-25T18:07:05.988Z",
+        "updated": "2018-03-28T20:04:39.123Z",
+        "deleted": null,
+        "title": "ReDoS",
+        "found_by": {
+          "name": "myvyang"
+        },
+        "reported_by": {
+          "name": "myvyang"
+        },
+        "module_name": "brace-expansion",
+        "cves": [
+          "CVE-2017-16032"
+        ],
+        "vulnerable_versions": "<=1.1.6",
+        "patched_versions": ">=1.1.7",
+        "overview": "Affected versions of `brace-expansion` are vulnerable to a regular expression denial of service condition.\n\n## Proof of Concept\n\n```\nvar expand = require('brace-expansion');\nexpand('{,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\\n}');\n```",
+        "recommendation": "Update to version 1.1.7 or later.",
+        "references": "[Issue #33](https://github.com/juliangruber/brace-expansion/issues/33)\n[PR #35](https://github.com/juliangruber/brace-expansion/pull/35)\n[PR #35](https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3)",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "Multi.Library",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/338"
+      },
+      "525": {
+        "findings": [
+          {
+            "version": "2.2.2",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tough-cookie"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 525,
+        "created": "2017-09-08T18:07:02.061Z",
+        "updated": "2018-04-09T00:01:19.079Z",
+        "deleted": null,
+        "title": "Regular Expression Denial of Service",
+        "found_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "reported_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "module_name": "tough-cookie",
+        "cves": [
+          "CVE-2017-16112"
+        ],
+        "vulnerable_versions": "<2.3.3",
+        "patched_versions": ">=2.3.3",
+        "overview": "Affected versions of `tough-cookie` are susceptible to a regular expression denial of service.\n\nThe amplification on this vulnerability is relatively low - it takes around 2 seconds for the engine to execute on a malicious input which is 50,000 characters in length.\n\nIf node was compiled using the `-DHTTP_MAX_HEADER_SIZE` however, the impact of the vulnerability can be significant, as the primary limitation for the vulnerability is the default max HTTP header length in node.",
+        "recommendation": "Update to version 2.3.3 or later.",
+        "references": "[Issue #92](https://github.com/salesforce/tough-cookie/issues/92)",
+        "access": "public",
+        "severity": "high",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "Network.Library",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/525"
+      },
+      "532": {
+        "findings": [
+          {
+            "version": "2.12.0",
+            "paths": [
+              "gulp-nsp>nsp>joi>moment"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 532,
+        "created": "2017-09-21T20:40:00.889Z",
+        "updated": "2018-04-09T00:31:11.585Z",
+        "deleted": null,
+        "title": "Regular Expression Denial of Service",
+        "found_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "reported_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "module_name": "moment",
+        "cves": [],
+        "vulnerable_versions": "<2.19.3",
+        "patched_versions": ">=2.19.3",
+        "overview": "Affected versions of `moment` are vulnerable to a low severity regular expression denial of service when parsing dates as strings.",
+        "recommendation": "Update to version 2.19.3 or later.",
+        "references": "[Issue #4163](https://github.com/moment/moment/issues/4163)\n[PR #4326](https://github.com/moment/moment/pull/4326)",
+        "access": "public",
+        "severity": "low",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/532"
+      },
+      "534": {
+        "findings": [
+          {
+            "version": "2.2.0",
+            "paths": [
+              "gulp-eslint>eslint>debug",
+              "gulp-mocha>mocha>debug",
+              "gulp-nsp>nsp>https-proxy-agent>debug",
+              "gulp-nsp>nsp>subcommand>debug"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 534,
+        "created": "2017-09-25T18:55:55.956Z",
+        "updated": "2018-05-16T19:37:43.686Z",
+        "deleted": null,
+        "title": "Regular Expression Denial of Service",
+        "found_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "reported_by": {
+          "name": "Cristian-Alexandru Staicu"
+        },
+        "module_name": "debug",
+        "cves": [
+          "CVE-2017-16137"
+        ],
+        "vulnerable_versions": "<= 2.6.8 || >= 3.0.0 <= 3.0.1",
+        "patched_versions": ">= 2.6.9 < 3.0.0 || >= 3.1.0",
+        "overview": "Affected versions of `debug` are vulnerable to regular expression denial of service when untrusted user input is passed into the `o` formatter. \n\nAs it takes 50,000 characters to block the event loop for 2 seconds, this issue is a low severity issue.",
+        "recommendation": "Version 2.x.x: Update to version 2.6.9 or later.\nVersion 3.x.x: Update to version 3.1.0 or later.\n",
+        "references": "- [Issue #501](https://github.com/visionmedia/debug/issues/501)\n- [PR #504](https://github.com/visionmedia/debug/pull/504)",
+        "access": "public",
+        "severity": "low",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/534"
+      },
+      "566": {
+        "findings": [
+          {
+            "version": "2.16.3",
+            "paths": [
+              "gulp-nsp>nsp>joi>hoek",
+              "gulp-nsp>nsp>joi>topo>hoek",
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>boom>hoek",
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>cryptiles>boom>hoek",
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>hoek",
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>hawk>sntp>hoek",
+              "gulp-nsp>nsp>wreck>boom>hoek",
+              "gulp-nsp>nsp>wreck>hoek"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 566,
+        "created": "2018-04-20T21:25:58.421Z",
+        "updated": "2018-04-20T21:25:58.421Z",
+        "deleted": null,
+        "title": "Prototype pollution",
+        "found_by": {
+          "name": "HoLyVieR"
+        },
+        "reported_by": {
+          "name": "HoLyVieR"
+        },
+        "module_name": "hoek",
+        "cves": [],
+        "vulnerable_versions": "<= 4.2.0 || >= 5.0.0 < 5.0.3",
+        "patched_versions": "> 4.2.0 < 5.0.0 || >= 5.0.3",
+        "overview": "Versions of `hoek` prior to 4.2.1 and 5.0.3 are vulnerable to prototype pollution.\n\nThe `merge` function, and the `applyToDefaults` and `applyToDefaultsWithShallow` functions which leverage `merge` behind the scenes, are vulnerable to a prototype pollution attack when provided an _unvalidated_ payload created from a JSON string containing the `__proto__` property.\n\nThis can be demonstrated like so:\n\n```javascript\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n```\n\nThis type of attack can be used to overwrite existing properties causing a potential denial of service.",
+        "recommendation": "Update to version 4.2.1, 5.0.3 or later.",
+        "references": "",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-471",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/566"
+      },
+      "577": {
+        "findings": [
+          {
+            "version": "4.17.4",
+            "paths": [
+              "lodash"
+            ],
+            "dev": false,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "1.0.2",
+            "paths": [
+              "gulp>vinyl-fs>glob-watcher>gaze>globule>lodash"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "3.10.1",
+            "paths": [
+              "gulp-eslint>eslint>inquirer>lodash"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "3.6.0",
+            "paths": [
+              "gulp-istanbul>istanbul-threshold-checker>lodash"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          },
+          {
+            "version": "4.14.1",
+            "paths": [
+              "gulp-istanbul>lodash"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 577,
+        "created": "2018-04-24T14:27:02.796Z",
+        "updated": "2018-04-24T14:27:13.049Z",
+        "deleted": null,
+        "title": "Prototype Pollution",
+        "found_by": {
+          "name": "Olivier Arteau (HoLyVieR)"
+        },
+        "reported_by": {
+          "name": "Olivier Arteau (HoLyVieR)"
+        },
+        "module_name": "lodash",
+        "cves": [
+          "CVE-2018-3721"
+        ],
+        "vulnerable_versions": "<4.17.5",
+        "patched_versions": ">=4.17.5",
+        "overview": "Versions of `lodash` before 4.17.5 are vulnerable to prototype pollution. \n\nThe vulnerable functions are 'defaultsDeep', 'merge', and 'mergeWith' which allow a malicious user to modify the prototype of `Object` via `__proto__` causing the addition or modification of an existing property that will exist on all objects.\n\n",
+        "recommendation": "Update to version 4.17.5 or later.",
+        "references": "- [HackerOne Report](https://hackerone.com/reports/310443)",
+        "access": "public",
+        "severity": "low",
+        "cwe": "CWE-471",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 1,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/577"
+      },
+      "593": {
+        "findings": [
+          {
+            "version": "1.0.0",
+            "paths": [
+              "gulp-nsp>nsp>https-proxy-agent"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 593,
+        "created": "2018-04-24T15:54:57.432Z",
+        "updated": "2018-04-24T15:55:49.931Z",
+        "deleted": null,
+        "title": "Denial of Service",
+        "found_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "reported_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "module_name": "https-proxy-agent",
+        "cves": [],
+        "vulnerable_versions": "<=2.1.1",
+        "patched_versions": ">=2.2.0",
+        "overview": "Versions of `https-proxy-agent` before 2.2.0 are vulnerable to denial of service. This is due to unsanitized options (proxy.auth) being passed to `Buffer()`.",
+        "recommendation": "Update to version 2.2.0 or later.",
+        "references": "- [index.js Line 207](https://github.com/TooTallNate/node-https-proxy-agent/blob/2.1.1/index.js#L207)\n- [HackerOne Report](https://hackerone.com/reports/319532)",
+        "access": "public",
+        "severity": "high",
+        "cwe": "CWE-20",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 3,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/593"
+      },
+      "597": {
+        "findings": [
+          {
+            "version": "1.5.1",
+            "paths": [
+              "gulp-eslint>eslint>concat-stream",
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>concat-stream"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 597,
+        "created": "2018-04-24T20:25:38.919Z",
+        "updated": "2018-04-24T20:26:26.842Z",
+        "deleted": null,
+        "title": "Memory Exposure",
+        "found_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "reported_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "module_name": "concat-stream",
+        "cves": [],
+        "vulnerable_versions": ">=1.3.0 <1.3.2 || >=1.4.0 <1.4.11 || >=1.5.0 <1.5.2",
+        "patched_versions": ">=1.5.2 || >=1.4.11 <1.5.0 || >=1.3.2 <1.4.0",
+        "overview": "Versions of `concat-stream` before 1.5.2 are vulnerable to memory exposure if userp provided input is passed into `write()`\n\nVersions <1.3.0 are not affected due to not using unguarded Buffer constructor.\n",
+        "recommendation": "Update to version 1.5.2, 1.4.11, 1.3.2 or later.\n\nIf you are unable to update make sure user provided input into the `write()` function is not a number.",
+        "references": "- [Proof of Concept](https://gist.github.com/ChALkeR/c2d2fd3f1d72d51ad883df195be03a85)\n- [GitHub PR #47](https://github.com/maxogden/concat-stream/pull/47)",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-20",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 3,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/597"
+      },
+      "598": {
+        "findings": [
+          {
+            "version": "0.4.2",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>tunnel-agent"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 598,
+        "created": "2018-04-24T20:30:16.099Z",
+        "updated": "2018-04-24T20:31:15.816Z",
+        "deleted": null,
+        "title": "Memory Exposure",
+        "found_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "reported_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "module_name": "tunnel-agent",
+        "cves": [],
+        "vulnerable_versions": "<0.6.0",
+        "patched_versions": ">=0.6.0",
+        "overview": "Versions of `tunnel-agent` before 0.6.0 are vulnerable to memory exposure.\n\nThis is exploitable if user supplied input is provided to the auth value and is a number.\n\nProof-of-concept:\n```js\nrequire('request')({\n  method: 'GET',\n  uri: 'http://www.example.com',\n  tunnel: true,\n  proxy:{\n    protocol: 'http:',\n    host:'127.0.0.1',\n    port:8080,\n    auth:USERSUPPLIEDINPUT // number\n  }\n});\n```",
+        "recommendation": "Update to version 0.6.0 or later.",
+        "references": "- [GitHub Commit #9ca95ec](https://github.com/request/tunnel-agent/commit/9ca95ec7219daface8a6fc2674000653de0922c0)\n- [Proof of Concept](https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4)",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-20",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 3,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/598"
+      },
+      "606": {
+        "findings": [
+          {
+            "version": "1.7.4",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>http-signature>sshpk"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 606,
+        "created": "2018-04-24T22:25:08.333Z",
+        "updated": "2018-09-07T17:39:16.549Z",
+        "deleted": null,
+        "title": "Regular Expression Denial of Service",
+        "found_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "reported_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "module_name": "sshpk",
+        "cves": [
+          "CVE-2018-3737"
+        ],
+        "vulnerable_versions": "<1.13.2 || >=1.14.0 <1.14.1",
+        "patched_versions": ">=1.13.2 < 1.14.0 || >=1.14.1",
+        "overview": "Versions of `sshpk` before 1.13.2 or 1.14.1 are vulnerable to regular expression denial of service when parsing crafted invalid public keys.",
+        "recommendation": "Update to version 1.13.2, 1.14.1 or later.",
+        "references": "- https://github.com/joyent/node-sshpk/blob/v1.13.1/lib/formats/ssh.js#L17\n- [HackerOne Report](https://hackerone.com/reports/319593)\n- https://github.com/joyent/node-sshpk/commit/46065d38a5e6d1bccf86d3efb2fb83c14e3f9957",
+        "access": "public",
+        "severity": "high",
+        "cwe": "CWE-400",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 5,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/606"
+      },
+      "612": {
+        "findings": [
+          {
+            "version": "0.4.1",
+            "paths": [
+              "gulp-nsp>nsp>rc>deep-extend"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 612,
+        "created": "2018-04-24T23:13:13.134Z",
+        "updated": "2018-05-08T01:46:15.050Z",
+        "deleted": null,
+        "title": "Prototype Pollution",
+        "found_by": {
+          "name": "Olivier Arteau (HoLyVieR)"
+        },
+        "reported_by": {
+          "name": "Olivier Arteau (HoLyVieR)"
+        },
+        "module_name": "deep-extend",
+        "cves": [],
+        "vulnerable_versions": "<=0.5.0",
+        "patched_versions": ">=0.5.1",
+        "overview": "Versions of `deep-extend` before 0.5.1 are vulnerable to prototype pollution.",
+        "recommendation": "Update to version 0.5.1 or later.",
+        "references": "- [HackerOne Report](https://hackerone.com/reports/311333)",
+        "access": "public",
+        "severity": "low",
+        "cwe": "CWE-471",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 2,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/612"
+      },
+      "664": {
+        "findings": [
+          {
+            "version": "0.0.5",
+            "paths": [
+              "gulp-nsp>nsp>nodesecurity-npm-utils>silent-npm-registry-client>npm-registry-client>request>stringstream"
+            ],
+            "dev": true,
+            "optional": false,
+            "bundled": false
+          }
+        ],
+        "id": 664,
+        "created": "2018-05-16T19:39:37.463Z",
+        "updated": "2018-05-22T15:03:12.999Z",
+        "deleted": null,
+        "title": "Out-of-bounds Read",
+        "found_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "reported_by": {
+          "name": "Сковорода Никита Андреевич"
+        },
+        "module_name": "stringstream",
+        "cves": [],
+        "vulnerable_versions": "<=0.0.5",
+        "patched_versions": ">=0.0.6",
+        "overview": "All versions of `stringstream` are vulnerable to out-of-bounds read as it allocates uninitialized Buffers when number is passed in input stream on Node.js 4.x and below.",
+        "recommendation": "No fix is currently available for this vulnerability. It is our recommendation to not install or use this module if user input is being passed in to `stringstream`.\n",
+        "references": "- [HackerOne Report](https://hackerone.com/reports/321670)\n- https://github.com/mhart/StringStream/blob/v0.0.5/stringstream.js#L32",
+        "access": "public",
+        "severity": "moderate",
+        "cwe": "CWE-125",
+        "metadata": {
+          "module_type": "",
+          "exploitability": 2,
+          "affected_components": ""
+        },
+        "url": "https://npmjs.com/advisories/664"
+      }
+    },
+    "muted": [],
+    "metadata": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 12,
+        "moderate": 24,
+        "high": 14,
+        "critical": 1
+      },
+      "dependencies": 44,
+      "devDependencies": 1879,
+      "optionalDependencies": 105,
+      "totalDependencies": 1923
+    },
+    "runId": "66bfb9b3-cf17-4eeb-bd9f-9e26a4fc434a"
+  }

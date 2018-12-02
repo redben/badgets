@@ -1,0 +1,67 @@
+{
+  "name": "badgets",
+  "version": "0.0.0",
+  "description": "npm audit and outdated output to badges. No other online serviecs involved",
+  "homepage": "",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Reda Bendiar",
+    "email": "reda.bendiar@gmail.com",
+    "url": "https://github.com/redben/badgets"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "badges",
+    "outdated",
+    "audit"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0",
+    "jest": "^23.5.0",
+    "lec": "^1.0.1",
+    "lint-staged": "^8.1.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "jest": true,
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  },
+  "scripts": {
+    "pretest": "eslint .; npm run clean",
+    "test": "jest --coverage",
+    "prepare": "lec lib/cli.js -c LF",
+    "test:clean": "rm -rf coverage/* && rm -rf .nyc_output",
+    "clean": "npm run test:clean"
+  },
+  "repository": "redben/badgets",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "bin": "lib/cli.js",
+  "dependencies": {
+    "badgen": "^2.5.0",
+    "yargs": "^12.0.5"
+  }
+}
