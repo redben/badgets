@@ -35,5 +35,5 @@ Apache-2.0 © [Reda Bendiar]()
 [daviddm-url]: https://david-dm.org/redben/badgets
 [coveralls-image]: https://coveralls.io/repos/redben/badgets/badge.svg
 [coveralls-url]: https://coveralls.io/r/redben/badgets
-[outdated-image]: ./tmp/outdated.svg
-[vulnerabilities-image]: ./tmp/vulnerabilities.svg
+[outdated-image]: ./badges/outdated.svg
+[vulnerabilities-image]: ./badges/vulnerabilities.svg
