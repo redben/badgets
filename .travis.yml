@@ -1,6 +1,16 @@
 language: node_js
 node_js:
+<<<<<<< 56002b0bd3baa5230982bceace8233827676982d
   - v11
   - v10
   - v8
+=======
+- v8
+- v6
+>>>>>>> getting travis right
 after_script: cat ./coverage/lcov.info | coveralls
+deploy:
+  on:
+    tags: true
+  api_key:
+    secure: A9Ura3q9n8qUGt+bwl1WoHeF4SJmRS+gei501wbkL5XL0buWgcdDmKzRs2kD9NlWpYbb+pqoNOAExsrBqSAERraZUQrZwrhzw6YcfnyEiD3Sr/rY00hibmVRT01cCU6dvNZst+Q98bX6YrpcLypHxLASDHICU+zeEP9sqJ9KAnYvzaRM1RO/033psqqeLtM18/2RyTr2Quki/ZLyfSJ+skzSH2kmnXRCPyZHNXm2dLdR1mbbNyCDEsIMvjsVVy6U7sIRdQmTYbpsHiEQmElwjnNWrdVYgCwrqsBX2cAT4rDTPHxTSMcwh71cUDpMMtGIYRvr2uIoO/ePCpj/pviuxnpZveFjIWxtqBMM8Ih847vu4uEthgV50QfDAPbnunB/ZQ2drYBkaPCXJf/PB+t09DtwhQgmiLxFBnfXtpmcE87DAiVrM2rqmnFj9dyjmehTAiOTMF8gnJ3CNJnsYvc5GSEbDJxLiCvE7ZzxPtQ2zxdqA1jDSuEcWJIhb21KPtnpX73noZ9AMvt0AoI74JwKDTAV1Ntul9q3mek0SptFAH9gwRltpnub14Aw5DpxiRGg/5ZW2ImrIy1YKv1kVUW4O2C+w0r8lXzmG9efaxzFQsK+kiadjLRo7zwkrEbytJxTUZ4pk41lLtPXH1Repu4QaL+0vHXm5baU2Gndb8MydUA=
