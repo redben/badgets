@@ -1,13 +1,7 @@
 language: node_js
 node_js:
-<<<<<<< 56002b0bd3baa5230982bceace8233827676982d
-  - v11
-  - v10
-  - v8
-=======
 - v8
 - v6
->>>>>>> getting travis right
 after_script: cat ./coverage/lcov.info | coveralls
 deploy:
   on:
